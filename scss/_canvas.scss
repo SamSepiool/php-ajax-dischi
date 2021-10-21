@@ -1,0 +1,35 @@
+
+
+
+
+.covers_box {
+    max-width: 71.875rem;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    .canvas{
+        width: calc(100% / 5 - 2.5rem );
+        min-height: 22.5rem;
+        margin: .625rem 1.25rem;
+        padding: 1.25rem 1.125rem;
+        text-align: center;
+        background-color: $header;
+        overflow: hidden;
+    
+        & img{
+            width: 100%;
+        }
+    
+        .info{
+            color:$gray;
+    
+            h2{
+                margin: 1.25rem 0;
+                color:$white;
+                text-transform: uppercase;
+                font-size: 1.25rem;
+            }
+        }
+    }
+}

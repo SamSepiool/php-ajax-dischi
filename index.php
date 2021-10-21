@@ -19,11 +19,11 @@ include __DIR__ . '/partials/database.php';
     <body>
 
         <header>
-            
+
         </header>
 
         <main>
-             
+            <?php include __DIR__ . '/partials/templates/canvas.php' ?>
         </main>
 
 
