@@ -1,4 +1,4 @@
-    <div class="covers_box">
+<div class="covers_box">
     <?php foreach ($database as $item): ?>
 
         <div class="canvas">

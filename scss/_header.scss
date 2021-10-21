@@ -1,0 +1,16 @@
+header {
+    max-height: 4.375rem;
+    background-color: $header;
+    padding: 0.625rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    .logo {
+      max-width: 3.75rem;
+  
+      img {
+        width: 100%;
+      }
+    }
+}

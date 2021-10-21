@@ -1,5 +1,7 @@
 @import './_variables';
-@import './canvas';
+@import './_header';
+@import './_canvas';
+
 
 
 // GENERAL/RESET
@@ -25,9 +27,5 @@ body{
 
     }
 
- 
 
-
-
- 
 }

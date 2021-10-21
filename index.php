@@ -1,9 +1,5 @@
 <?php 
-
 include __DIR__ . '/partials/database.php';
-
-
-
 ?>
 
 <!DOCTYPE html>
@@ -18,10 +14,7 @@ include __DIR__ . '/partials/database.php';
     </head>
     <body>
 
-        <header>
-
-        </header>
-
+        <?php include __DIR__ . '/partials/templates/header.php'?>
         <main>
             <?php include __DIR__ . '/partials/templates/canvas.php' ?>
         </main>
