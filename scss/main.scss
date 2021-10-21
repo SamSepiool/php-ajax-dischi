@@ -1,0 +1,27 @@
+@import './_variables';
+
+// GENERAL/RESET
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: $body;
+    font-family: 'Roboto', sans-serif;
+
+    #app{
+        height: 100%;
+    }
+
+    main{
+        display: flex;
+        height: calc(100% - 4.375rem);
+    }
+
+
+
+ 
+}
