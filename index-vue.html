@@ -18,13 +18,14 @@
                 </div>
             
                 <nav>
-                    <select name="genres">
-                        <option value="" disabled>select genre</option>
+                    <select name="genres" v-model="genreSelected" @change="choosenGenre()">
+                        <option value="">All genres</option>
+                        <option v-for="(genre,index) in genresList" :key="index" :value="genre">{{genre}}</option>
                     </select>  
             
-                    <select name="authors" >
-                        <option value="" >all authors</option>
-                        <option ></option>
+                    <select name="authors" v-model="authorSelected" @change="passValue()">
+                        <option value="">All authors</option>
+                        <option v-for="(author,index) in authorsList" :key="index" :value="author">{{author}}</option>
                     </select>  
                 </nav>
             </header>
